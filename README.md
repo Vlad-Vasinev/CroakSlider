@@ -1,4 +1,4 @@
-# Croak Slider(JavaScript slider)💻
+# Croak Popup(JavaScript popup)💻
 
 ## This project is using:
 - HTML: basic html-layout 💡
