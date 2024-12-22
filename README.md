@@ -43,7 +43,7 @@ to your desirable slider elements
 <hr class="marker">
 ```
 
-5. You basic HTML-markdown should look like this:
+5. Your basic HTML-markdown should look like this:
 ```
 <hr class="marker">
 <div data-croak-container>
