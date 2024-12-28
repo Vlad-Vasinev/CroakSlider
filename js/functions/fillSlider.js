@@ -1,4 +1,3 @@
-import { handControl } from "./handControl.js"
 
 export function fillSlider (array, storiesGalleri, customScale) {
   array.forEach((item) => {
@@ -36,10 +35,6 @@ export function fillSlider (array, storiesGalleri, customScale) {
       storiesElImg.setAttribute('src', item.getAttribute('src'))
       storiesEl.append(storiesElImg)
       storiesGalleri.append(storiesEl)
-
-      if(window.innerWidth <= 768) {
-        handControl(storiesEl)
-      }
 
     }
   })
