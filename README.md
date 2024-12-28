@@ -1,9 +1,9 @@
-# Croak Slider(JavaScript slider)💻
+# Croak Popup(JavaScript popup)💻
 
 ## This project is using:
 - HTML: basic html-layout 💡
-- CSS: slider's styling 💡
-- JS: slider's logic 💡
+- CSS: popup's styling 💡
+- JS: popup's logic 💡
 
 ## Features:
 - keyboard control (left/right) 💡
@@ -17,9 +17,9 @@
 ```
 data-el
 ```
-to your desirable slider elements
+to your desirable popup elements
 
-2. Fill your slider element with img:
+2. Fill your popup element with img:
 ```
 <img src="slider/mantella-1.jpg" data-el>
 ```
@@ -43,7 +43,7 @@ to your desirable slider elements
 <hr class="marker">
 ```
 
-5. You basic HTML-markdown should look like this:
+5. Your basic HTML-markdown should look like this:
 ```
 <hr class="marker">
 <div data-croak-container>
@@ -57,7 +57,7 @@ to your desirable slider elements
 </div>
 ```
 
-6. Create basic slider essence:
+6. Create basic popup essence:
 ```
 let frog22 = new croakSlider({
   stories: {
